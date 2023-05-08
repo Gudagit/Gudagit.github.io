@@ -1,0 +1,42 @@
+footer{
+    background: var(--color-bg-variant);
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    padding-bottom: 5rem;
+}
+footer a{
+    color:var(--colot-text-belo);
+}
+.foot-logo{
+    font-size: 2rem;
+    color: var(--colot-text );
+    font-weight: 600;
+    /* margin-bottom: 2rem; */
+    display:inline-block;
+}
+.link{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 2rem auto;
+}
+.foot-copyr{
+    font-size: 1.2rem;
+}
+
+/* --- media ---*/
+
+@media screen and (max-width: 1024px) {
+      
+}
+@media screen and (max-width: 600px) {
+    .link{
+        flex-direction: column;
+        gap: 1rem;
+    }
+      
+}
